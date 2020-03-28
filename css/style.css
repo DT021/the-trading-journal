@@ -135,7 +135,7 @@ input, select {
 }
 
 .logo-box span{
-    font-family: "AR BONNIE";
+    font-family: "AR BONNIE", Lancelot;
     font-size: 42px;
     font-weight: 800;
 }
@@ -152,9 +152,6 @@ input, select {
     padding: 0px 20px;
 }
 
-.navigation a:last-child{
-    padding-right: 0;
-}
 
 .navigation a li{
     display: table-cell;
@@ -163,4 +160,36 @@ input, select {
     color: white;
     font-family: "Oswald";
     font-size: 16px;
+}
+
+div main{
+    text-align: center;
+
+}
+div main h2{
+    font-family: "Oswald";
+    font-size: 42px;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div main img{
+    
+}
+
+.background-image{
+    background-image: url("stock-market.jpeg");
+    filter: blur(50px);
+}
+
+.navigation a:hover{
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+.navigation li:hover{
+    color: black;
 }
