@@ -103,6 +103,21 @@ input, select {
 
 /*My code starts here*/
 
+@font-face{
+    src: url(fonts/Lancelot-Regular);
+    font-family: Lancelot;
+}
+
+@font-face{
+    src: url(fonts/ARBONNIE);
+    font-family: "AR BONNIE";
+}
+
+@font-face{
+    src: url(Oswald-VariableFont_wght);
+    font-family: Osward;
+}
+
 .header{
     width: 100%;
     height: 80px;
@@ -129,7 +144,7 @@ input, select {
     display: table-cell;
     vertical-align: middle;
     font-size: 28px;
-    font-family: "Oswald";
+    font-family: Oswald;
     font-weight: 200;
 
 }
@@ -158,16 +173,17 @@ input, select {
     vertical-align: middle;
     height: 100%;
     color: white;
-    font-family: "Oswald";
+    font-family: Oswald;
     font-size: 16px;
 }
+
 
 div main{
     text-align: center;
 
 }
 div main h2{
-    font-family: "Oswald";
+    font-family: Oswald;
     font-size: 42px;
     display: block;
     padding-top: 10px;
@@ -175,6 +191,7 @@ div main h2{
 }
 
 div main img{
+    margin: 0;
     
 }
 
